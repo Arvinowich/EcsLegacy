@@ -27,6 +27,6 @@ namespace ECS.Unit.Test
             Assert.AreEqual(true, uut.RunSelfTest()); //tester runSelfTest
         }
 
-
+        //Så langt så godt
     }
 }
