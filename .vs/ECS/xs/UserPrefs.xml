@@ -1,6 +1,7 @@
 ﻿<Properties StartupConfiguration="{428A9E3F-0A07-4821-B28A-A8E5F8ADA550}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ECS PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="ECS/ECS.cs">
     <Files>
       <File FileName="ECS/ECS.cs" Line="1" Column="1" />
@@ -12,9 +13,7 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ECS" expanded="True">
-            <Node name="ECS" expanded="True">
-              <Node name="ECS.cs" selected="True" />
-            </Node>
+            <Node name="ECS" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -23,7 +22,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.ECS PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
