@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "428a9e3f-0a07-4821-b28a-a8e5f8ada550": {
+      "ProjectGuid": "428a9e3f-0a07-4821-b28a-a8e5f8ada550",
+      "DisplayName": "ECS",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

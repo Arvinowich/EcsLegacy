@@ -1,6 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECS", "ECS\ECS.csproj", "{428A9E3F-0A07-4821-B28A-A8E5F8ADA550}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECS", "ECS\ECS.csproj", "{428A9E3F-0A07-4821-B28A-A8E5F8ADA550}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECS.Unit.Test", "ECS.Unit.Test\ECS.Unit.Test.csproj", "{03953867-3F80-477D-B8F3-D12E5A56CEE9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +17,15 @@ Global
 		{428A9E3F-0A07-4821-B28A-A8E5F8ADA550}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{428A9E3F-0A07-4821-B28A-A8E5F8ADA550}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{428A9E3F-0A07-4821-B28A-A8E5F8ADA550}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03953867-3F80-477D-B8F3-D12E5A56CEE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03953867-3F80-477D-B8F3-D12E5A56CEE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03953867-3F80-477D-B8F3-D12E5A56CEE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03953867-3F80-477D-B8F3-D12E5A56CEE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44316FA0-7E77-4BB0-97B4-6AEA74AF20C9}
 	EndGlobalSection
 EndGlobal
