@@ -1,0 +1,15 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=06fb5929_002D52df_002D4dd6_002Da44d_002D68d78b1b6dad/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test_setThreshold_69" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::03953867-3F80-477D-B8F3-D12E5A56CEE9::net6.0::ECS.Unit.Test.Tests.Test_setThreshold_69&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::03953867-3F80-477D-B8F3-D12E5A56CEE9::net6.0::ECS.Unit.Test.Tests.Test_Regulate_ExceptionsForPrints_tempBiggerThanThreshold&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::03953867-3F80-477D-B8F3-D12E5A56CEE9::net6.0::ECS.Unit.Test.Tests.Test_Regulate_ExceptionsForPrints_tempLessThanThreshold&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e7857a05_002D7c60_002D4830_002Da196_002Dc556ef2b8a61/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test_tempSensor_GetCurTemp_Lig_69" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::03953867-3F80-477D-B8F3-D12E5A56CEE9::net6.0::ECS.Unit.Test.Tests.Test_tempSensor_GetCurTemp_Lig_69&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::03953867-3F80-477D-B8F3-D12E5A56CEE9::net6.0::ECS.Unit.Test.Tests.Test_RunSelfTest_Is_True&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::03953867-3F80-477D-B8F3-D12E5A56CEE9::net6.0::ECS.Unit.Test.Tests.Test_setThreshold_69&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -1,10 +1,12 @@
 ﻿using System;
+using System.Security.Principal;
 
 namespace ECS
 {
     public class ECS
     {
         private int _threshold;
+        private int _windowThreshold;
         private readonly ITempSensor _tempSensor;
         private readonly IHeater _heater;
 
@@ -20,9 +22,14 @@ namespace ECS
             var t = _tempSensor.GetTemp();
             Console.WriteLine($"Temperatur measured was {t}");
             if (t < _threshold)
+            {
                 _heater.TurnOn();
+            }
             else
+            {
                 _heater.TurnOff();
+            }
+
 
         }
 
@@ -34,6 +41,16 @@ namespace ECS
         public int GetThreshold()
         {
             return _threshold;
+        }
+        
+        public void SetWindowThreshold(int thr)
+        {
+            _windowThreshold = thr;
+        }
+
+        public int GetWindowThreshold()
+        {
+            return _windowThreshold;
         }
 
         public int GetCurTemp()

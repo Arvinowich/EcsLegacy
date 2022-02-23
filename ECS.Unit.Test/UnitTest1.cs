@@ -1,3 +1,4 @@
+using System;
 using NUnit.Framework;
 
 namespace ECS.Unit.Test
@@ -8,9 +9,10 @@ namespace ECS.Unit.Test
         [SetUp]
         public void Setup()
         {
-            Heater heater = new Heater();
+            FakeHeater fakeHeater = new FakeHeater();
+            //Heater heater = new Heater();
             FakeTempSensor fakeTempSensor = new FakeTempSensor();
-            uut = new ECS(23, heater, fakeTempSensor);
+            uut = new ECS(23, fakeHeater, fakeTempSensor);
         }
 
         [Test]
@@ -22,11 +24,38 @@ namespace ECS.Unit.Test
 
 
         [Test]
-        public void Test_RunSelfTest_Is_True()
+        public void Test_RunSelfTestTempSensor_Is_True()
         {
             Assert.AreEqual(true, uut.RunSelfTest()); //tester runSelfTest
         }
 
-        //SÂ langt sÂ godt
+        
+        [Test]
+        public void Test_RunSelfTestHeater_Is_True()
+        {
+            Assert.AreEqual(true, uut.RunSelfTest()); //tester runSelfTest
+        }
+        
+        [Test]
+        public void Test_setThreshold_69()
+        {
+            uut.SetThreshold(69);
+            Assert.AreEqual(69, uut.GetThreshold()); //tester runSelfTest
+        }
+        
+        [Test]
+        public void Test_Regulate_ExceptionsForPrints_tempBiggerThanThreshold()
+        {
+            Assert.That( () => uut.Regulate(), Throws.TypeOf<NotSupportedException>());
+        }
+        
+        [Test]
+        public void Test_Regulate_ExceptionsForPrints_tempLessThanThreshold()
+        {
+            uut.SetThreshold(100);
+            Assert.That( () => uut.Regulate(), Throws.TypeOf<NotImplementedException>());
+        }
+        
+        //S√• langt s√• godt
     }
 }
