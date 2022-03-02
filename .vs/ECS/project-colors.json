@@ -5,7 +5,12 @@
       "ProjectGuid": "428a9e3f-0a07-4821-b28a-a8e5f8ada550",
       "DisplayName": "ECS",
       "ColorIndex": 0
+    },
+    "03953867-3f80-477d-b8f3-d12e5a56cee9": {
+      "ProjectGuid": "03953867-3f80-477d-b8f3-d12e5a56cee9",
+      "DisplayName": "ECS.Unit.Test",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }
